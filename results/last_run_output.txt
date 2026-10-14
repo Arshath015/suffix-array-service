@@ -13,4 +13,4 @@ Traceback (most recent call last):
 IndexError: index 11 is out of bounds for axis 0 with size 11
 (example run failed — see log above)
 
-Recorded: 2026-10-14T12:12:00Z
+Recorded: 2026-10-14T12:13:23Z
