@@ -1,0 +1,16 @@
+Traceback (most recent call last):
+  File "/home/runner/work/suffix-array-service/suffix-array-service/./examples/client_example.py", line 18, in <module>
+    main()
+  File "/home/runner/work/suffix-array-service/suffix-array-service/./examples/client_example.py", line 7, in main
+    response = handler.handle_request(payload)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/suffix-array-service/suffix-array-service/api/routes.py", line 32, in handle_request
+    sa = build_suffix_array(s)
+         ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/suffix-array-service/suffix-array-service/core/sa.py", line 27, in build_suffix_array
+    key2 = np.where(sa + k < n, rank[sa + k], -1)
+                                ~~~~^^^^^^^^
+IndexError: index 11 is out of bounds for axis 0 with size 11
+(example run failed — see log above)
+
+Recorded: 2026-10-14T12:12:00Z
