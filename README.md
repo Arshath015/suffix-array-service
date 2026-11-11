@@ -103,3 +103,10 @@ The suite covers typical cases, edge cases (empty string, single character), and
 
 ## License
 MIT © 2026
+
+
+## Requirements
+
+```
+pip install -r requirements.txt
+```
